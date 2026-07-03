@@ -1,0 +1,18 @@
+video:
+  video_path: ../../demos/curtain_open_proxy_video.mp4
+  target_prompt: "A person stands in front of a large floor-to-ceiling window with two panels of light, flowing curtains drawn closed in the center. With both hands, they grasp the inner edges of the curtains and smoothly pull them outward in opposite directions. Sunlight gradually floods into the room as the curtains part, revealing a bright outdoor view."
+  mask_dir: /path/to/your/mask
+
+save_video: outputs/proxyup_curtain_open.mp4
+use_latent_mask: true
+flow_shift: 3.0
+
+inversion:
+  enable: true
+  inverse_prompt: "A proxy video of curtains opening."
+  num_inverse_step: 40
+  num_denoise_step: 40
+  inverse_guidance_scale: 1.0
+  denoise_guidance_scale: 3.0
+  strength: 0.8
+  refine_steps: 15

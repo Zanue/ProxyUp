@@ -1,0 +1,18 @@
+video:
+  video_path: ../../demos/book_fall_down_proxy_video.mp4
+  target_prompt: "Five books stand upright on a table. A person pushes the leftmost book to the right, causing it to topple and create a domino effect that knocks over the other four books."
+  mask_dir: /path/to/your/mask
+
+save_video: outputs/proxyup_book_fall_down.mp4
+use_latent_mask: true
+flow_shift: 3.0
+
+inversion:
+  enable: true
+  inverse_prompt: "A proxy video of books falling like dominoes."
+  num_inverse_step: 40
+  num_denoise_step: 40
+  inverse_guidance_scale: 1.0
+  denoise_guidance_scale: 3.0
+  strength: 0.8
+  refine_steps: 15

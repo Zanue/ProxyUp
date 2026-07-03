@@ -1,0 +1,18 @@
+video:
+  video_path: ../../demos/newtons_cradle_proxy_video.mp4
+  target_prompt: "A person pulls back the leftmost metal ball of the Newton's Cradle on the table and releases it, causing the ball to swing down and strike the adjacent one."
+  mask_dir: /path/to/your/mask
+
+save_video: outputs/proxyup_newtons_cradle.mp4
+use_latent_mask: true
+flow_shift: 3.0
+
+inversion:
+  enable: true
+  inverse_prompt: "A proxy video of a Newton's Cradle motion."
+  num_inverse_step: 40
+  num_denoise_step: 40
+  inverse_guidance_scale: 1.0
+  denoise_guidance_scale: 3.0
+  strength: 0.8
+  refine_steps: 15

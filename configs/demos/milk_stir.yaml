@@ -1,0 +1,18 @@
+video:
+  video_path: ../../demos/milk_proxy_video.mp4
+  target_prompt: "A cup of milk was placed on a table. A spoon stirred the milk inside the cup."
+  mask_dir: /path/to/your/mask
+
+save_video: outputs/proxyup_milk_stir.mp4
+use_latent_mask: true
+flow_shift: 3.0
+
+inversion:
+  enable: true
+  inverse_prompt: "A proxy video of milk being stirred in a cup."
+  num_inverse_step: 40
+  num_denoise_step: 40
+  inverse_guidance_scale: 1.0
+  denoise_guidance_scale: 3.0
+  strength: 0.8
+  refine_steps: 15
