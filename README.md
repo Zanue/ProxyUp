@@ -2,7 +2,7 @@
 
 ### [Project Page](https://zanue.github.io/proxyup/) | Arxiv Paper
 
-[Zanwei Zhou]([https://github.com/Zanue](https://scholar.google.com/citations?user=45oVlf8AAAAJ&hl=en))<sup>1,*</sup>, [Jiazhong Cen](https://jumpat.github.io/jumpcat/)<sup>1,*</sup>, [Jiemin Fang](https://jaminfong.cn/)<sup>2,&dagger;</sup>, [Yumeng He](https://github.com/raynehe)<sup>1</sup>, [Chen Yang](https://chensjtu.github.io/)<sup>2</sup>, Sikuang Li<sup>1</sup>, Fanpeng Meng<sup>2</sup>, Zhikuan Bao<sup>2</sup>, [Wei Shen](https://shenwei1231.github.io/)<sup>1,&dagger;</sup>, [Qi Tian](https://www.qitian1987.com/)<sup>2,&dagger;</sup>
+[Zanwei Zhou](https://scholar.google.com/citations?user=45oVlf8AAAAJ&hl=en)<sup>1,* </sup>, [Jiazhong Cen](https://jumpat.github.io/jumpcat/)<sup>1,* </sup>, [Jiemin Fang](https://jaminfong.cn/)<sup>2,&dagger;</sup>, [Yumeng He](https://github.com/raynehe)<sup>1</sup>, [Chen Yang](https://chensjtu.github.io/)<sup>2</sup>, Sikuang Li<sup>1</sup>, Fanpeng Meng<sup>2</sup>, Zhikuan Bao<sup>2</sup>, [Wei Shen](https://shenwei1231.github.io/)<sup>1,&dagger;</sup>, [Qi Tian](https://www.qitian1987.com/)<sup>2,&dagger;</sup>
 
 <sup>1</sup>Shanghai Jiao Tong University &nbsp;&nbsp; <sup>2</sup>Huawei Inc.
 
