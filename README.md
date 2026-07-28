@@ -12,6 +12,7 @@ ProxyUp is a training-free framework for proxy-conditioned controllable video ge
 
 ## Updates
 
+- 2026/07/28: Update Dataset and Evaluation Metrics.
 - 2026/07/03: Release initial inference code, demo configurations, and example proxy videos.
 
 
